@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+img {
+    display: block;
+}
+a {
+    text-decoration:  none;
+    color: #fff;
+}
+body{
+    background-color: #f2f2f2;
+}
+.all{
+    height: 426px;
+    width: 390px;
+    margin:200px 300px;
+}
+/* 头部 */
+.header{
+    height: 46px;
+    background: #f7faf9;
+}
+.header .header-left{
+    margin-top: 12px;
+    float: left;
+    width: 5px;
+    height: 20px;
+    background: #69a88f;
+}
+.header h1{
+    margin-left:16px;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    color:  #69a88f;
+    font-weight: 900;
+    font-size: 18px;
+}
+.header  .header-right{
+    float:right;
+    margin-right:12px;
+    margin-top: 12px;
+}
+.header  .header-right a{
+    color: #999999;
+    font-size: 18px
+}
+/* banner部分 */
+.qf-banner {
+    position: relative;
+    width: 390px;
+    height: 382px;
+    overflow: hidden;
+    background: #ffffff;  
+}
+.banner-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 9999px;
+    height: 382px;
+}
+.banner-inner li {
+    float: left;
+    height: 382px;
+}
+.banner-inner li .banner{
+    height: 150px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top:16px;
+}
+.banner-inner li .banner img{
+    width: 100%;
+}
+.banner-inner li h2{
+    height: 28px;
+    line-height: 28px;
+    color: black;
+    font-size: 18px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.banner-inner li .banner1{
+    margin-left: 20px;
+}
+.banner-inner li .banner1 p{
+    font-size: 14px;
+}
+.banner-inner li .banner2 {
+    width: 350px;
+    margin-left: 20px;
+    height: 100px;
+}
+ .banner2 li{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left:10px
+}
+.banner2 li img{
+    height: 100px;
+    width: 100px;
+}
+/* 圆点部分 */
+.banner-tip {
+    position: absolute;
+    bottom: 6px;
+    left: 166px;
+}
+.banner-tip li {
+    display: inline-block;
+    width: 12px;
+    height: 6px;
+    background-color: #d8d8d8;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: 0.4;
+    font-size: 10px;
+    text-align: center;
+    color:#fff;
+    margin-left: 8px;
+}
+.banner-tip li.active {
+    opacity: 1;
+}
+.left-btn{ 
+    position: absolute;
+    left:0;
+    top:190px;
+    width: 35px;
+    height: 46px;
+   background-color:#cccccc;
+   opacity: 0.6;
+}
+.right-btn{
+    position: absolute;
+    right: 0;
+    top:190px;
+    width: 35px;
+    height: 46px;
+    background-color:#cccccc;
+    opacity: 0.6;
+}
+.left-btn {
+    left: 25px;
+}
+.right-btn {
+    right: 25px;
+    /* background-position: -45px, 0; */
+}
